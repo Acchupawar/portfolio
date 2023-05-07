@@ -1,0 +1,53 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header.sticky {
+    border-bottom: .1rem solid rgba(0,0,0,.2);
+}
+
+@media ( max-width : 991px) {
+    header {
+       padding: 2rem 3%;
+    }
+}
+.logo {
+    font-size: 2.8rem;
+    color: var(--text-color);
+    font-weight: 600;
+    cursor: default;
+}
+
+.navbar a {
+    font-size: 1.8rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: var(--main-colore);
+
+}
+
+#menu-icon {
+    font-size: 3.6rem;
+    color: var(--text-color);
+    display: none;
+}

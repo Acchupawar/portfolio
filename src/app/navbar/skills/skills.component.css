@@ -1,0 +1,74 @@
+.btn {
+    display: inline-block;
+    padding: .5rem 2rem;
+    background: var(--main-colore);
+    border-radius: 2rem;
+    box-shadow: 0 0 1.2rem;
+    font-size: 2rem;
+    font-weight: 500;
+    transition: 5s ease;
+
+}
+
+.btn:hover {
+    box-shadow: none;
+}
+
+span {
+    color: var(--main-colore);
+}
+
+.skills h2 {
+    margin-bottom: 5rem;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+    font-size: 4.8rem;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}
+
+.skills-container .skills-box {
+    flex: 1 1 30rem;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+    transition: .5s ease;
+
+}
+
+.skills-container .skills-box:hover {
+    border-color: var(--main-colore);
+    transform: scale(1.02);
+
+}
+
+.skills-box i {
+    font-size: 7rem;
+    color: var(--main-colore);
+
+}
+
+.skills-box h3 {
+    font-size: 2.7rem;
+}
+
+.skills-box p {
+    font-size: 1rem 0 3rem;
+}

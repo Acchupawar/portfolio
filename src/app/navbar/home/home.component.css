@@ -17,6 +17,10 @@ span {
     color: var(--main-colore);
 }
 
+h1 {
+    color: var(--main-colore);
+}
+
 .home-content h1 {
     font-size: 5.7rem;
     font-weight: 700;

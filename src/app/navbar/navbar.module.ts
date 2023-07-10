@@ -11,6 +11,13 @@ import { SkillsComponent } from './skills/skills.component';
 import { ProjectComponent } from './project/project.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
+import {MatButtonModule} from '@angular/material/button';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+import{FormsModule} from '@angular/forms'
+
 
 
 @NgModule({
@@ -27,7 +34,15 @@ import { FooterComponent } from './footer/footer.component';
   imports: [
     CommonModule,
     NavbarRoutingModule,
-    FontAwesomeModule
-  ]
+    FontAwesomeModule,
+    MatButtonModule,
+    MatSnackBarModule,
+    MatToolbarModule,
+    MatFormFieldModule,
+    MatInputModule,
+    FormsModule
+    
+  ],
+  providers:[MatSnackBarModule]
 })
 export class NavbarModule { }

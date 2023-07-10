@@ -66,3 +66,24 @@ span {
     margin-top: 2rem;
     cursor: pointer;
 }
+
+/* Compose Email Css */
+h1{
+    color: black;
+    text-align: center;
+}
+
+.card{
+
+    width: 60%;
+    margin: auto;
+
+}
+
+.container{
+    margin-top: 50px;
+}
+
+.card button{
+    margin: 5px;
+}
